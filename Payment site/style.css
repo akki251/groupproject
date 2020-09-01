@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Gilroy ☞" ;
+}
+html,body{
+    width:100%;
+    height:100%;
+}
+#bg{
+    width:100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+h1{
+    position: absolute;
+    left:50%;
+    top:15%;
+    transform: translate(-50%,-50%);
+    color: rgb(113, 131, 235);
+    font-size:42px;
+}
+#box1{
+    position: absolute;
+    left:50%;
+    top:60%;
+    transform: translate(-50%,-50%);
+    width:400px;
+    height:400px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px;
+    box-shadow: 0px 10px 30px #c0bebe9a;
+}
+#box2{
+    position: absolute;
+    left:50%;
+    top:46%;
+    transform: translate(-50%,-50%);
+    width:380px;
+    height:350px;
+    background: rgb(84,138,240);
+    background: linear-gradient(180deg, rgba(84, 139, 240, 0.753) 45%, rgba(45,200,237,0.753) 100%);
+    border-radius: 7px;
+    padding:15px;
+}
+.one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:rgba(255, 255, 255, 0.836);
+    font-weight: 50;
+    margin-bottom:5%;
+}
+#img{
+    width:50px;
+    height: 50px;
+    background-image: url(https://images.unsplash.com/photo-1515516969-d4008cc6241a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-position: center;
+    border-radius: 7px;
+    
+}
+#two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:rgba(255, 255, 255, 1);
+    font-weight: 100;
+    margin-top:1%;
+}
+#line{
+    width:350px;
+    height:1px;
+    background-color: rgba(255, 255, 255, 0.226);
+    margin-top:3%;
+    margin-bottom: 3%;
+}
+#three{
+    display: flex;
+    justify-content: space-between;
+    margin-top:25%;
+    color:rgba(255, 255, 255, 1);
+}
+#three button{
+    width:90px;
+    border:none;
+    border-radius: 7px;
+    padding:5px;
+    font-size: 12px;
+    text-align: center;
+    background-color: #fff;
+}
+button a{
+    text-decoration: none;
+    color:rgb(84,138,240);
+}
